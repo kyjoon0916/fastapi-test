@@ -6,7 +6,7 @@ services:
     image: zlskdyd/fastapi-test:${tag}
     container_name: fast-api
     ports:
-      - "8000:80"
+      - "7311:80"
     environment:
       - TZ=Asia/Seoul
     restart: always
